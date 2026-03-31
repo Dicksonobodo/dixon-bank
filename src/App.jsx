@@ -5,7 +5,6 @@ import { AuthPage } from './components/auth/AuthPage';
 import { Home } from './pages/Home';
 import { Profile } from './pages/Profile';
 import { Admin } from './pages/Admin';
-import { Withdraw } from './pages/WithdrawModal';  // ← NEW IMPORT
 import { NotFound } from './pages/NotFound';
 import { SendMoney } from './components/transactions/SendMoney';
 import { TransactionHistory } from './components/transactions/TransactionHistory';
