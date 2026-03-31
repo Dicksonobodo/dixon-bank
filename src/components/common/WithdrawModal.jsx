@@ -98,7 +98,7 @@ export const WithdrawModal = ({ isOpen, onClose }) => {
             marginBottom: '6px'
           }}
         >
-        Total withdrawal fee: €2370'
+        Total withdrawal fee: €2370
         </p>
 
         {/* Coming Soon Badge */}
