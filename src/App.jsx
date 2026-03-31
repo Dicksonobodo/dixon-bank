@@ -5,6 +5,7 @@ import { AuthPage } from './components/auth/AuthPage';
 import { Home } from './pages/Home';
 import { Profile } from './pages/Profile';
 import { Admin } from './pages/Admin';
+import { Withdraw } from './pages/Withdraw';  // ← NEW IMPORT
 import { NotFound } from './pages/NotFound';
 import { SendMoney } from './components/transactions/SendMoney';
 import { TransactionHistory } from './components/transactions/TransactionHistory';
@@ -71,6 +72,16 @@ function AppRoutes() {
             <Layout>
               <SendMoney />
             </Layout>
+          </ProtectedRoute>
+        }
+      />
+
+      {/* NEW WITHDRAW ROUTE */}
+      <Route
+        path="/withdraw"
+        element={
+          <ProtectedRoute>
+            <Withdraw />
           </ProtectedRoute>
         }
       />

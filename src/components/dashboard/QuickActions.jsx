@@ -2,7 +2,7 @@ import { useNavigate } from 'react-router-dom';
 import SendIcon from '@mui/icons-material/Send';
 import ReceiptLongIcon from '@mui/icons-material/ReceiptLong';
 import PersonIcon from '@mui/icons-material/Person';
-
+import AccountBalanceWalletIcon from '@mui/icons-material/AccountBalanceWallet';
 
 export const QuickActions = () => {
   const navigate = useNavigate();
@@ -14,6 +14,13 @@ export const QuickActions = () => {
       icon: <SendIcon fontSize="large" />,
       color: '#0070BA',
       onClick: () => navigate('/send')
+    },
+    {
+      title: 'Withdraw',
+      description: 'Withdraw to bank account',
+      icon: <AccountBalanceWalletIcon fontSize="large" />,
+      color: '#FFC439',
+      onClick: () => navigate('/withdraw')
     },
     {
       title: 'View Transactions',

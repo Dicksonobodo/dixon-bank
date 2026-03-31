@@ -12,6 +12,7 @@ export const Sidebar = ({ onNavigate }) => {
   const menuItems = [
     { path: '/', label: 'Dashboard', icon: <DashboardIcon fontSize="large" /> },
     { path: '/send', label: 'Send Money', icon: <SendIcon fontSize="large" /> },
+     { path: '/withdraw', label: 'Withdraw', icon: <SendIcon fontSize="large" /> },
     { path: '/transactions', label: 'Transactions', icon: <ReceiptLongIcon fontSize="large" /> },
     { path: '/profile', label: 'Profile', icon: <PersonIcon fontSize="large" /> }
   ];
