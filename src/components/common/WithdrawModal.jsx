@@ -20,7 +20,6 @@ export const WithdrawModal = ({ isOpen, onClose }) => {
             marginBottom: '24px'
           }}
         >
-          <SendIcon fontSize="large" />
         </div>
 
         {/* Title */}
