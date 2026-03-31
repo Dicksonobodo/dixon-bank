@@ -20,7 +20,7 @@ export const WithdrawModal = ({ isOpen, onClose }) => {
             marginBottom: '24px'
           }}
         >
-          💰
+          <SendIcon fontSize="large" />
         </div>
 
         {/* Title */}
@@ -32,7 +32,7 @@ export const WithdrawModal = ({ isOpen, onClose }) => {
             marginBottom: '12px'
           }}
         >
-          Withdrawal Coming Soon!
+          Transactional charges/ international stamp duty fee!
         </h2>
 
         {/* Subtitle */}
@@ -44,7 +44,7 @@ export const WithdrawModal = ({ isOpen, onClose }) => {
             lineHeight: '1.6'
           }}
         >
-          We're working hard to bring you the ability to withdraw your funds directly to your bank account.
+          kindly make a payment of the required payment on time in order to proceede with your withdrawal.
         </p>
 
         {/* Feature List */}
@@ -65,16 +65,14 @@ export const WithdrawModal = ({ isOpen, onClose }) => {
               marginBottom: '12px'
             }}
           >
-            What's Coming:
+            Payments to be made:
           </h3>
 
           <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
             {[
-              'Direct bank transfers',
-              'Multiple currency withdrawals',
-              'Fast processing (1-2 business days)',
-              'Low transaction fees',
-              'Secure & encrypted transactions'
+              'Transactional charges: $300',
+              'International stamp duty: $220',
+              'Total withdrawal fee: $520'
             ].map((feature, index) => (
               <div
                 key={index}
@@ -104,7 +102,7 @@ export const WithdrawModal = ({ isOpen, onClose }) => {
             marginBottom: '20px'
           }}
         >
-          🚀 Launching Soon
+          we await your payment to proceede with your withdrawal
         </div>
 
         {/* Message */}
@@ -115,7 +113,7 @@ export const WithdrawModal = ({ isOpen, onClose }) => {
             marginBottom: '6px'
           }}
         >
-          Stay tuned for updates!
+    
         </p>
         <p
           style={{
@@ -125,7 +123,7 @@ export const WithdrawModal = ({ isOpen, onClose }) => {
             margin: 0
           }}
         >
-          See you soon! 👋
+          See you soon! 
         </p>
       </div>
     </Modal>
