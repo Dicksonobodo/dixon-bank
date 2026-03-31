@@ -20,7 +20,7 @@ export const WithdrawModal = ({ isOpen, onClose }) => {
             marginBottom: '24px'
           }}
         >
-            Rachelle martinello
+            
         </div>
 
         {/* Title */}
