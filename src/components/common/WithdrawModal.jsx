@@ -70,9 +70,9 @@ export const WithdrawModal = ({ isOpen, onClose }) => {
 
           <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
             {[
-              'Transactional charges: $300',
-              'International stamp duty: $220',
-              'Total withdrawal fee: $520'
+              'Transactional charges: €300',
+              'International stamp duty: €220',
+              
             ].map((feature, index) => (
               <div
                 key={index}
@@ -88,6 +88,18 @@ export const WithdrawModal = ({ isOpen, onClose }) => {
             ))}
           </div>
         </div>
+
+
+        {/* Message */}
+        <p
+          style={{
+            fontSize: '23px',
+            color: '#6C757D',
+            marginBottom: '6px'
+          }}
+        >
+        Total withdrawal fee: €2370'
+        </p>
 
         {/* Coming Soon Badge */}
         <div
