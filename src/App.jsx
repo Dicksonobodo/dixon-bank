@@ -6,6 +6,7 @@ import { Home } from './pages/Home';
 import { Profile } from './pages/Profile';
 import { Admin } from './pages/Admin';
 import { NotFound } from './pages/NotFound';
+import { Withdraw } from './pages/Withdraw';
 import { SendMoney } from './components/transactions/SendMoney';
 import { TransactionHistory } from './components/transactions/TransactionHistory';
 import { Layout } from './components/layout/Layout';
@@ -80,7 +81,9 @@ function AppRoutes() {
         path="/withdraw"
         element={
           <ProtectedRoute>
-            <Withdraw />
+            <Layout>
+              <Withdraw />
+            </Layout>
           </ProtectedRoute>
         }
       />
