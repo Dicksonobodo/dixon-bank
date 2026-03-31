@@ -20,6 +20,7 @@ export const WithdrawModal = ({ isOpen, onClose }) => {
             marginBottom: '24px'
           }}
         >
+            <h1>Rachele Martinello</h1>
         </div>
 
         {/* Title */}
